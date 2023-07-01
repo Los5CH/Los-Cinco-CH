@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'popins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(presalos\ 5.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;    
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #4a8d1e;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 75px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 80px;
+    line-height: 90px;
+    color: rgb(228, 217, 215);
+    text-transform: uppercase;
+    margin-bottom: 180px;
+}
+
+.header-content h2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #539266;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #4a8d1e;
+}
+
+.btn-2{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:  #539266;
+    color: #f9fafc;
+    text-transform: uppercase;
+    
+}
+
+.btn-2:hover{
+    background-color: #4a8d1e;
+}
+
+.btn-3{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:  #4ca8dd;
+    color: #f9fafc;
+    text-transform: uppercase;
+    
+}
+
+.btn-3:hover{
+    background-color: #72c3db;
+}
+
+.btn-4{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:  #db3131;
+    color: #f9fafc;
+    text-transform: uppercase;
+    
+}
+
+.btn-4:hover{
+    background-color: #e26e6e;
+}
+
+.btn-5{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:  #2d44c7;
+    color: #f9fafc;
+    text-transform: uppercase;
+    
+}
+
+.btn-5:hover{
+    background-color: #4c6cc4;
+}
+
+.btn-6{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:  #922626;
+    color: #f9fafc;
+    text-transform: uppercase;
+    
+}
+
+.btn-6:hover{
+    background-color: #8d4545;
+}
+
+.btn-7{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:  #fc0000;
+    color: #f9fafc;
+    text-transform: uppercase;
+    
+}
+
+.btn-7:hover{
+    background-color: #c46f6f;
+}
+
+
+
+
+
+
+
+
+.footer {
+    padding: 100px  40px;
+    background-color: #353b35;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 200px 80px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
